@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:experiment": "nodemon --watch src --exec ts-node src/experiment.ts",
-    "experiment": "ts-node src/experiment.ts",
+    "dev": "nodemon --watch src --exec ts-node src/experiment.ts",
+    "start": "ts-node src/experiment.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
